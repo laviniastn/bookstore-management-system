@@ -1,1 +1,1 @@
-# users-management-system
+# bookstore-management-system
