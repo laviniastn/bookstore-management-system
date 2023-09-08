@@ -20,6 +20,16 @@ public class Category {
 
     private String type;
 
+    public Category(String type) {
+        this.type=type;
+    }
+
+    public Category(long id, String type) {
+        this.id=id;
+        this.type=type;
+
+    }
+
     @Override
     public String toString() {
         return "Category{" +

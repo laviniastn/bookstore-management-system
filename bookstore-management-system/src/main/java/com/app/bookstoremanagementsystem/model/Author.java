@@ -21,6 +21,18 @@ public class Author {
 
     private Boolean contemporary;
 
+    public Author(String name, Boolean contemporary) {
+        this.name=name;
+        this.contemporary = contemporary;
+    }
+
+    public Author(long id, String name, boolean contemporary) {
+        this.id=id;
+        this.name=name;
+        this.contemporary = contemporary;
+    }
+
+
     @Override
     public String toString() {
         return "Author{" +

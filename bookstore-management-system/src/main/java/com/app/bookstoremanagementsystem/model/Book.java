@@ -38,6 +38,22 @@ public class Book {
     )
     private List<Author> authors  = new ArrayList<>();
 
+    public Book(String title, String description, float price, int amount){
+        this.title=title;
+        this.description=description;
+        this.price=price;
+        this.amount=amount;
+
+    }
+
+    public Book(long id, String title, String description, float price, int amount) {
+        this.id=id;
+        this.title=title;
+        this.description=description;
+        this.price=price;
+        this.amount=amount;
+    }
+
     @Override
     public String toString() {
         return "Book{" +
